@@ -43,7 +43,7 @@ chmod -R ug+rw storage bootstrap/cache
 
 ```bash
 php artisan tinker
->>> $u = App\Models\User::create(['name'=>'Admin','email'=>'admin@mainindustrial.com','password'=>bcrypt('CAMBIA_ESTA'),'active'=>true]);
+>>> $u = App\Models\User::create(['name'=>'Admin','email'=>'admin@main-industrial.mx','password'=>bcrypt('CAMBIA_ESTA'),'active'=>true]);
 >>> $u->assignRole('administrador');
 ```
 

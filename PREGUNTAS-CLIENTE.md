@@ -24,7 +24,7 @@ Leyenda: ✅ = ya implementado con ese valor por defecto · ⬜ = requiere decis
 | # | Pregunta | Por qué importa | Recomendación / estado |
 |---|----------|-----------------|------------------------|
 | 2.1 | ¿Qué proveedor SMTP se usará (Mailgun, SendGrid, SES, Google Workspace)? | Necesario para enviar los avisos por correo reales. | ⬜ En desarrollo se usa `log`; producción requiere SMTP. |
-| 2.2 | ¿Correo y nombre del remitente? | Encabezado "De:" de los avisos. | ⬜ p. ej. `no-reply@mainindustrial.com`. |
+| 2.2 | ¿Correo y nombre del remitente? | Encabezado "De:" de los avisos. | ⬜ p. ej. `no-reply@main-industrial.mx`. |
 | 2.3 | ¿A qué hora deben salir los avisos diarios de seguimiento? | El comando corre a una hora fija. | ✅ Por defecto 08:00 (ajustable). |
 
 ## 3. Captura y duplicados (§3.3)
